@@ -92,7 +92,7 @@ function Login() {
         {/* Google Login */}
         <div className="text-center">
           <a
-            href="http://localhost:5000/api/auth/google"
+            href="https://p-p1.onrender.com/api/auth/google"
             className="inline-block w-full border border-green-300 text-green-700 font-medium py-2 rounded-lg hover:bg-green-100 transition"
           >
             Sign in with Google

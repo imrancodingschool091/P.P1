@@ -3,7 +3,7 @@ import { store } from '../app/store';
 import { setAccessToken,logoutLocal } from '../features/auth/AuthSlice';
 
 const API = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://p-p1.onrender.com/api',
   withCredentials: true, // include cookies
 });
 

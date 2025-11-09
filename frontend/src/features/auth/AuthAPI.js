@@ -1,5 +1,5 @@
 import axios from 'axios';
-const API = axios.create({ baseURL: 'http://localhost:5000/api', withCredentials: true });
+const API = axios.create({ baseURL: 'https://p-p1.onrender.com/api', withCredentials: true });
 
 
 export const register=(data)=> API.post("/auth/register",data);
