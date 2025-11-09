@@ -12,6 +12,7 @@ export default function OAuthSuccess() {
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
     const token = params.get('accessToken');
+    alert("token",token)
     if (token) {
       disptach(setAccessToken(token))
       nav('/dashboard');
